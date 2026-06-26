@@ -91,11 +91,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Amartya Kushwaha — Portfolio" },
+      { name: "twitter:title", content: "Amartya Kushwaha — AI & Full Stack Engineer" },
       {
         name: "twitter:description",
         content: "Building intelligent software. AI · Backend · Cybersecurity · Full Stack.",
       },
+      { name: "description", content: "Amartya's Digital Studio is a modern, interactive personal portfolio showcasing AI & ML expertise and full-stack development skills." },
+      { property: "og:description", content: "Amartya's Digital Studio is a modern, interactive personal portfolio showcasing AI & ML expertise and full-stack development skills." },
+      { name: "twitter:description", content: "Amartya's Digital Studio is a modern, interactive personal portfolio showcasing AI & ML expertise and full-stack development skills." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/6KGeWwB83ghVI2pF3CFicw81SNZ2/social-images/social-1782448027096-image_3.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/6KGeWwB83ghVI2pF3CFicw81SNZ2/social-images/social-1782448027096-image_3.webp" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
